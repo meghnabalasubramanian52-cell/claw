@@ -60,6 +60,7 @@ When sending messages to group topics, use these thread IDs:
 | Group | Topic | Thread ID |
 | ----- | ----- | --------- |
 | Meghgh Workspace (-1003868658739) | General | 5 |
+| Meghgh Workspace (-1003868658739) | Finance Nes | 6 |
 
 ### Sync Rules
 
