@@ -10,6 +10,10 @@
         "6": {
           "name": "Finance Nes",
           "iconColor": 7322096
+        },
+        "7": {
+          "name": "AI News",
+          "iconColor": 7322096
         }
       },
       "accountId": "default",

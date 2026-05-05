@@ -61,6 +61,7 @@ When sending messages to group topics, use these thread IDs:
 | ----- | ----- | --------- |
 | Meghgh Workspace (-1003868658739) | General | 5 |
 | Meghgh Workspace (-1003868658739) | Finance Nes | 6 |
+| Meghgh Workspace (-1003868658739) | AI News | 7 |
 
 ### Sync Rules
 
