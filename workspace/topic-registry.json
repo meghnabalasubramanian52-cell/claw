@@ -2,7 +2,12 @@
   "groups": {
     "-1003868658739": {
       "name": "Meghgh Workspace",
-      "topics": {},
+      "topics": {
+        "5": {
+          "name": "General",
+          "iconColor": 7322096
+        }
+      },
       "accountId": "default",
       "agentId": "default"
     }
