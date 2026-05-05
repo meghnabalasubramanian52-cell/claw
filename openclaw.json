@@ -8,11 +8,32 @@
       "models": {
         "anthropic/claude-sonnet-4-6": {}
       },
-      "maxConcurrent": 9,
+      "maxConcurrent": 8,
       "subagents": {
-        "maxConcurrent": 7
+        "maxConcurrent": 6
       }
-    }
+    },
+    "list": [
+      {
+        "id": "main",
+        "default": false,
+        "name": "Main Agent",
+        "workspace": "/data/.openclaw/workspace",
+        "agentDir": "/data/.openclaw/agents/main/agent",
+        "model": {
+          "primary": "anthropic/claude-sonnet-4-6"
+        }
+      },
+      {
+        "id": "fin-agent",
+        "default": true,
+        "workspace": "/data/.openclaw/workspace-fin-agent",
+        "agentDir": "/data/.openclaw/agents/fin-agent/agent",
+        "identity": {
+          "name": "Fin Agent"
+        }
+      }
+    ]
   },
   "gateway": {
     "mode": "local",
