@@ -3,10 +3,10 @@
     "defaults": {
       "workspace": "/data/.openclaw/workspace",
       "model": {
-        "primary": "anthropic/claude-opus-4-7"
+        "primary": "anthropic/claude-sonnet-4-6"
       },
       "models": {
-        "anthropic/claude-opus-4-7": {}
+        "anthropic/claude-sonnet-4-6": {}
       },
       "maxConcurrent": 9,
       "subagents": {
@@ -81,7 +81,7 @@
     "profiles": {
       "anthropic:default": {
         "provider": "anthropic",
-        "mode": "token"
+        "mode": "api_key"
       }
     }
   },
